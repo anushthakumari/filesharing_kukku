@@ -1,0 +1,27 @@
+install nodejs if not installed by going to following url:
+https://nodejs.org/en/download
+
+install xampp server if not installed
+https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.25/xampp-windows-x64-8.1.25-0-VS16-installer.exe
+
+
+=========installing dependencies===================
+open command prompt in the project folder and type below command:
+npm install
+
+==============DB setup==============================
+
+open mysql admin from xampp control panel
+create a database name 'sharingapp'
+
+import the db.sql file in the database
+
+open file /backend/db.js and change db configuration
+
+
+=============starting the project===================
+to run the backend server
+npm run server
+
+to run the frontend server
+npm start
